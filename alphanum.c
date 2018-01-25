@@ -1,9 +1,12 @@
 #include<stdio.h>
 void main ()
 {
-    int num,a=65;
-    printf("\n enter num");
-    scanf("%d",&num);
-    printf("%c",num+1);
+    int num,i,a=65;
+   scanf("%d",&num);
+   for(i=1;i<num;i++)
+   {
+    a++;
+}  printf("%c",a);
 }
+
 
