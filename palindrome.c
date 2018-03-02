@@ -19,10 +19,10 @@ int main(){
 }
     
     if (flag) {
-        printf("%s is not a palindrome", string1);
+        printf("%s is not palindrome", string1);
     }    
     else {
-        printf("%s is a palindrome", string1);
+        printf("%s is palindrome", string1);
     }
     return 0;
 }
