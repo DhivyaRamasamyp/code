@@ -2,7 +2,7 @@
 
 void main()
 {
-    int a[100],i,j,n,temp;
+    int a[100],i,j,n,tem;
     printf("\n enter the num");
     scanf("%d",&n );
     printf("\n enter the value of num");
@@ -16,9 +16,9 @@ void main()
         {
             if(a[i]>a[j])
             {
-                temp=a[i];
+                tem=a[i];
                 a[i]=a[j];
-                a[j]=temp;
+                a[j]=tem;
             }
         }
     }
