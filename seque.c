@@ -2,10 +2,10 @@
 int main() 
 {	
    int n,m,i;
-   char c;
+   char b;
    for(i=0;i<4;i++)
    {
-       scanf("%d %c %d",&n,&c,&m);
+       scanf("%d %c %d",&n,&b,&m);
        if(i%2==0)
        {
            printf("%d\n",(n/m));
